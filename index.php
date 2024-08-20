@@ -4,4 +4,6 @@
 
 
 //require('four_pillars/encapsulation.php');
-require('four_pillars/abstraction.php');
+require('four_pillars/inheritance.php');
+// require('four_pillars/abstraction.php');
+// require('four_pillars/polymorphisom.php');

@@ -58,7 +58,7 @@ class Dog extends Animal
 
 
 
-// example two (abstract class in details)
+// example two (abstract class in details) (hide complex part)
 
 // // Parent class
 // abstract class Car

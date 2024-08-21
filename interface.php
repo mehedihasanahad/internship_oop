@@ -15,7 +15,7 @@
 //4) Classes can implement an interface while inheriting from another class at the same time
 
 
-
+// implementation of interface
 
 // Interface definition
 interface Animal
@@ -58,3 +58,39 @@ $animals = array($cat, $dog, $mouse);
 foreach ($animals as $animal) {
     $animal->makeSound();
 }
+
+
+
+
+// ======================================================================
+
+
+
+
+// extends from parent class and use Interface together
+
+// interface Animal
+// {
+//     public function makeSound();
+// }
+
+// // Parent class
+// class ParentClass {
+//     public function parentFn() {
+//         echo 'echo from parent class';
+//     }
+// }
+
+// // Class definitions
+// class Cat extends ParentClass implements Animal
+// {
+//     public function makeSound()
+//     {
+//         echo "Cat Sound <br/>";
+//     }
+// }
+
+// // Create a list of animals
+// $cat = new Cat();
+// $cat->makeSound();
+// $cat->parentFn();

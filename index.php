@@ -10,4 +10,5 @@
 // require('interface.php');
 // require('trait.php');
 // require('static.php');
- require('namespace');
+//  require('namespace');
+require('magic_methods');

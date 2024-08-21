@@ -18,25 +18,32 @@
 
 
 // Interface definition
-interface Animal {
+interface Animal
+{
     public function makeSound();
 }
 
 // Class definitions
-class Cat implements Animal {
-    public function makeSound() {
+class Cat implements Animal
+{
+    public function makeSound()
+    {
         echo "Cat Sound <br/>";
     }
 }
 
-class Dog implements Animal {
-    public function makeSound() {
+class Dog implements Animal
+{
+    public function makeSound()
+    {
         echo "Dog Sound <br/>";
     }
 }
 
-class Mouse implements Animal {
-    public function makeSound() {
+class Mouse implements Animal
+{
+    public function makeSound()
+    {
         echo "Mouse Sound <br/>";
     }
 }
@@ -48,6 +55,6 @@ $mouse = new Mouse();
 $animals = array($cat, $dog, $mouse);
 
 // Tell the animals to make a sound
-foreach($animals as $animal) {
+foreach ($animals as $animal) {
     $animal->makeSound();
 }

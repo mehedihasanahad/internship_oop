@@ -16,17 +16,24 @@
 // 12) __unserialize(),
 // 13) __toString(),
 // 14) __invoke(),
-// 15) __set_state(),
-// 16) __clone(),
-// 17) __debugInfo()
+// 15) __clone(),
+// 16) __debugInfo()
 
 
 
 
 
-// require('constructor.php');
+require('constructor.php');
 // require('destructor.php');
+// require('call.php');
+// require('callStatic.php');
 // require('get.php');
 // require('set.php');
 // require('isset.php');
-require('unset.php');
+// require('unset.php');
+// require('sleep_and_serialize.php');
+// require('wakeup_and_unserialize.php');
+// require('toString.php');
+// require('invoke.php');
+// require('clone.php');
+// require('debugInfo.php');

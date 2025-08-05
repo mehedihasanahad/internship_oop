@@ -54,65 +54,6 @@ class Dog extends Animal
 (new Dog())->sleep();
 
 
-// =============================================================================
-
-
-
-// example two (abstract class in details) (hide complex part)
-
-// // Parent class
-// abstract class Car
-// {
-//     public $name;
-//     public function __construct($name)
-//     {
-//         $this->name = $name;
-//     }
-//     abstract public function intro(): string;
-//     // abstract public function get_color();
-
-//     public function getIntro()
-//     {
-//         return "{$this->intro()} <br/>";
-//     }
-// }
-
-// // Child classes
-// class Audi extends Car
-// {
-//     public function intro(): string
-//     {
-//         return "Choose German quality! I'm an $this->name!";
-//     }
-// }
-
-// class Volvo extends Car
-// {
-//     public function intro(): string
-//     {
-//         return "Proud to be Swedish! I'm a $this->name!";
-//     }
-// }
-
-// class Citroen extends Car
-// {
-//     public function intro(): string
-//     {
-//         return "French extravagance! I'm a $this->name!";
-//     }
-// }
-
-// // Create objects from the child classes
-// $audi = new audi("Audi");
-// echo $audi->getIntro();
-
-// $volvo = new volvo("Volvo");
-// echo $volvo->getIntro();
-
-// $citroen = new citroen("Citroen");
-// echo $citroen->getIntro();
-
-
 
 // =============================================================================
 

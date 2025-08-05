@@ -29,7 +29,7 @@ $dog->makeSound(); // Outputs: Bark
 echo "<br/>";
 
 $cat = new Cat();
-$cat->makeSound(); // Outputs: Some sound
+$cat->makeSound(); // Outputs: Cat Bark
 
 
 
